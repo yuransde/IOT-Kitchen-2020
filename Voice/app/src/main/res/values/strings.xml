@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VoiceTest</string>
+    <string name="app_title">Recipe Speech</string>
+    <string name="start_button">Start</string>
+    <string name="ingredient_button">Ingredients</string>
+    <string name="next_button">Next</string>
+    <string name="repeat_button">Repeat</string>
+</resources>

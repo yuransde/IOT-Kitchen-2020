@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9DCA85"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <TextView
+        android:id="@+id/Title_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="199dp"
+        android:gravity="center"
+        android:text="IoT Kitchen Devices"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#0021DA"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/Google_signin_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="92dp">
+
+    </com.google.android.gms.common.SignInButton>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/colorAccent"
+        app:itemTextColor="@color/cardview_light_background"
+        app:menu="@menu/bottom_navigation">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="255dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginBottom="474dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Google_signin_Button" />
+
+</RelativeLayout>
+
